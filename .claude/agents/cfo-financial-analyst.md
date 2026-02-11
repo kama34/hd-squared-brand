@@ -96,6 +96,37 @@ You have access to project-specific instructions from CLAUDE.md files. Key point
 
 This is a **BLOCKING requirement**. Files in wrong locations confuse multi-startup operations.
 
+## ABSOLUTE RULE #3: Archival and Currency Markers
+
+**IMPORTANT**: Maintain clean financial documents workspace.
+
+**When creating new calculation**:
+
+1. **Archive old versions**:
+   - Create `archive/` folder if doesn't exist
+   - Move previous versions to archive
+   - Keep only 1 current version outside archive
+
+2. **Mark current document**:
+   ```markdown
+   # 📌 АКТУАЛЬНЫЙ ДОКУМЕНТ
+
+   > **Статус**: ✅ АКТУАЛЬНЫЙ (последний расчет)
+   > **Дата**: YYYY-MM-DD
+   > **Версия**: vX.X
+   > **Предыдущие версии**: см. `archive/`
+   ```
+
+3. **Create archive README**:
+   - List archived files with descriptions
+   - Point to current documents
+
+**Archival rules**:
+- ❌ NEVER delete files — only move to archive
+- ✅ Always keep 1 current version outside archive
+- ✅ Create clear README in archive
+- ✅ Archive cleaned by user periodically (3-6 months)
+
 ## Your Metrics Language
 
 You think in terms of:
