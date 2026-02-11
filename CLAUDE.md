@@ -4,15 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is a Russian startup studio workspace that manages multiple startups using an AI-powered C-level team and knowledge base system. All work is conducted in Russian language.
+This is **ХД² (ХД в квадрате)** — a premium fashion brand workspace managed using an AI-powered C-level team and knowledge base system.
+
+**Brand Philosophy**: Хочешь - Думай - Делай (Want - Think - Do)
+
+All work is conducted in Russian language.
 
 ## Critical Concepts
 
-### Multi-Startup Context
+### Multi-Collection Context
 
-**BEFORE any action**, identify which startup is being discussed:
-1. Look for explicit startup name mentions
-2. Check file paths (e.g., `<Startup Name>/knowledge-base/`)
+**BEFORE any action**, identify which collection is being discussed:
+1. Look for explicit collection name mentions (e.g., "Язык и рогатка")
+2. Check file paths (e.g., `Футболки/Язык и рогатка/Бизнес часть/`)
 3. Ask the user if unclear
 
 ### Directory Structure
@@ -26,19 +30,24 @@ Root/
 ├── .claude/
 │   ├── agents/              # Claude Code-adapted agent definitions
 │   └── skills/              # Claude Code-adapted skills
-├── <Startup Name>/          # Individual startup directories (e.g., "Sales AI")
-│   └── knowledge-base/      # REAL startup data (strategy, finance, tech, marketing, legal)
-└── Футболки/                # Product content (t-shirts design business)
+└── Футболки/                # Fashion collections directory
+    └── Язык и рогатка/      # Collection name
+        ├── Бизнес часть/    # Business documents
+        │   └── 02_Finance/  # REAL financial data (unit economics, models)
+        ├── 16 9/            # Visual content (horizontal format)
+        ├── 9 16/            # Visual content (stories/reels format)
+        ├── Видео/           # Video content
+        └── Модели/          # Collection photoshoot
 ```
 
 ### Templates vs Real Data
 
 | Location | Type | Usage |
 |----------|------|-------|
-| `.github/knowledge-base/` | **TEMPLATES** | Reference when creating new startups |
-| `<Startup Name>/knowledge-base/` | **REAL DATA** | Use for analysis and decisions |
+| `.github/knowledge-base/` | **TEMPLATES** | Reference when creating new collections |
+| `Футболки/<Collection Name>/Бизнес часть/` | **REAL DATA** | Use for analysis and decisions |
 
-**Never** use template data for actual startup analysis or decisions.
+**Never** use template data for actual collection analysis or financial decisions.
 
 ## Working with AI Agents
 
@@ -322,4 +331,4 @@ Use `experiment-management` skill to track experiments.
 **Created**: 2026-02-11
 **Language**: Russian (user-facing), English (this file)
 **Format**: Claude Code CLI
-**Startup Studio**: Multi-tenant design
+**Brand**: ХД² (ХД в квадрате) Premium Fashion
