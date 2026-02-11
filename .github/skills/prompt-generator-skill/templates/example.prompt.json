@@ -1,0 +1,12 @@
+{
+  "displayName": "Refactor helper",
+  "description": "Help refactor large functions into smaller, testable units.",
+  "scope": ["javascript", "typescript"],
+  "prompt": "You are an expert developer. Given the file contents and the user's instructions, refactor the code to improve readability, maintain behavior, and add comments where helpful. Output only the modified file contents.",
+  "placeholders": {
+    "goal": {
+      "description": "High-level goal for refactor",
+      "default": "Improve readability and testability"
+    }
+  }
+}

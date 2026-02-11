@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2026-02-11T22:25:59.140271",
+  "project": "HD Squared",
+  "new_supplier": {
+    "blank_cost": 500,
+    "cogs_mvp": 1700,
+    "cogs_scale": 1230
+  },
+  "comparison": [
+    {
+      "scenario": "БЫЛО (Текущий факт)",
+      "cogs": 3200,
+      "price": 6900,
+      "gross_margin": 53.6,
+      "cm": 3010.0,
+      "ltv": 3762.0,
+      "ltv_cac": 2.51,
+      "payback_months": 0.5
+    },
+    {
+      "scenario": "БЫЛО (Целевой опт)",
+      "cogs": 1630,
+      "price": 6900,
+      "gross_margin": 76.4,
+      "cm": 4580.0,
+      "ltv": 5725.0,
+      "ltv_cac": 3.82,
+      "payback_months": 0.3
+    },
+    {
+      "scenario": "СТАЛО (Новый COGS MVP)",
+      "cogs": 1700,
+      "price": 6900,
+      "gross_margin": 75.4,
+      "cm": 4510.0,
+      "ltv": 5638.0,
+      "ltv_cac": 3.76,
+      "payback_months": 0.3
+    },
+    {
+      "scenario": "СТАЛО (Новый COGS Scale)",
+      "cogs": 1230,
+      "price": 6900,
+      "gross_margin": 82.2,
+      "cm": 4980.0,
+      "ltv": 6225.0,
+      "ltv_cac": 4.15,
+      "payback_months": 0.3
+    }
+  ]
+}

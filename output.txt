@@ -1,0 +1,13 @@
+======================================================================
+РАСЧЕТ ЮНИТ-ЭКОНОМИКИ: ДИЗАЙНЕРСКИЙ МАГАЗИН (ФУТБОЛКИ)
+Дата расчета: 2026-02-11 21:46
+======================================================================
+
+[БАЗОВАЯ ЮНИТ-ЭКОНОМИКА] (при цене продажи 2500 руб)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Drive\Дизайнерский магазин\unit_economics_analysis.py", line 66, in <module>
+    print(f"\nВыручка с единицы:                   {revenue_per_unit:>8,.0f} \u20bd")
+  File "C:\Users\progr\AppData\Local\Programs\Python\Python310\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20bd' in position 48: character maps to <undefined>
